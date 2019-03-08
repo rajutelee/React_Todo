@@ -1,7 +1,7 @@
-var webpack = require('webpack');
-var path = require('path');
+const webpack = require('webpack');
+const path = require('path');
 
-var parentDir = path.join(__dirname, '../');
+const parentDir = path.join(__dirname, '../');
 
 module.exports = {
     entry: [
