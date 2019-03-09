@@ -1,8 +1,6 @@
-const webpack = require('webpack');
-const path = require('path');
-
-const parentDir = path.join(__dirname, '../');
-
+const webpack = require('webpack'),
+    path = require('path'),
+    parentDir = path.join(__dirname, '../');
 module.exports = {
     entry: [
         path.join(parentDir, 'index.js')
